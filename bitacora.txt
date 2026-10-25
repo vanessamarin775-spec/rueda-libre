@@ -81,3 +81,19 @@ un máximo de 6 bicicletas. También se limitó el campo de comentarios a 300
 caracteres y se hizo obligatoria la aceptación de las políticas. Se realizaron 
 pruebas con datos válidos e inválidos y se revisó la navegación usando el 
 teclado. Los resultados de las pruebas se registraron en una tabla.
+
+Mini Reto #8
+Se revisaron las tres páginas de Rueda Libre para comprobar el idioma del 
+documento, los textos alternativos de las imágenes, la jerarquía de encabezados, 
+la claridad de los enlaces y la navegación con teclado. Los hallazgos se 
+registraron y se corrigieron cuando fue necesario.
+Se evaluaron ocho combinaciones de la paleta de marca mediante el criterio de 
+contraste WCAG. Seis combinaciones resultaron aptas para texto normal y dos no 
+alcanzaron el contraste mínimo para texto grande. Por esta razón, se utilizará 
+Crema como fondo general, Azul Noche para títulos, Gris Asfalto para texto 
+secundario, Verde Ruta para enlaces y botones con texto blanco, y Naranja Pedal 
+para destacados con texto Azul Noche.
+Finalmente, se publicará el sitio mediante GitHub Pages y se comprobará que las 
+tres páginas, las imágenes y los enlaces funcionen correctamente desde internet.
+
+Mini Reto #9
