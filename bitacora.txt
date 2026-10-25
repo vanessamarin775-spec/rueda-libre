@@ -1,59 +1,74 @@
-1. CONFIGURACIÓN DEL PROYECTO
-Se creó la carpeta rueda-libre en Windows y se inicializó Git con el comando git init.
-Se crearon los archivos index.html y bitacora.txt, y las carpetas paginas e img. En img se guardó una imagen para utilizarla como portada del sitio.
+Mini Reto #1
+En el mini reto 1 se creó el proyecto Rueda Libre en Visual Studio 
+Code, con el archivo index.html, las carpetas paginas e img, y el 
+archivo bitacora.txt. También se inició Git para guardar los cambios 
+y conectar el proyecto con GitHub. Se creó la estructura básica de la 
+página con el nombre del negocio y un mensaje de bienvenida. En DevTools, 
+en la pestaña Network, la petición de la página principal mostró el código 
+304, que significa que el navegador puede utilizar una versión guardada 
+en caché porque el contenido no ha cambiado. Al ingresar a una ruta que 
+no existía, apareció el código 404, que significa que el servidor no 
+encontró la página solicitada. Finalmente, se identificó que HTML sirve 
+para organizar el contenido, CSS para darle estilo y JavaScript para agregar 
+interactividad al sitio web.
 
-2. SOLICITUD DEL DOCUMENTO PRINCIPAL
-URL completa: http://127.0.0.1:5500/index.html
-Protocolo: HTTP (http)
-Host: 127.0.0.1
-Puerto: 5500
-Ruta: /index.html
-Método de petición: GET
-Código de estado: 304 Not Modified
-Significado: el navegador puede utilizar una copia guardada en caché porque el documento no ha cambiado. Así evita descargar nuevamente el archivo completo.
+Mini Reto #2
+En el mini reto 2 se organizó el contenido de la página principal de Rueda 
+Libre utilizando HTML. Se crearon las secciones ¿Quiénes somos?, Nuestros 
+servicios, ¿Cómo alquilar? y Encuéntranos, utilizando títulos, subtítulos 
+y párrafos para presentar la información de forma clara. También se agregaron 
+imágenes con sus descripciones, una lista con viñetas para mostrar los 
+beneficios y una lista numerada con los cuatro pasos para alquilar una 
+bicicleta. Además, se incluyeron enlaces para consultar la ubicación en Google 
+Maps, enviar un correo electrónico y llegar directamente a la sección de 
+contacto. Finalmente, se revisó la estructura de la página en DevTools y se 
+guardaron los cambios con Git para subirlos a GitHub.
 
-3. SOLICITUD DE UNA RUTA INEXISTENTE
-URL completa: http://127.0.0.1:5500/promociones.html
-Protocolo: HTTP (http)
-Host: 127.0.0.1
-Puerto: 5500
-Ruta: /promociones.html
-Método de petición: GET
-Código de estado esperado: 404 Not Found
-Significado: el servidor no encontró el archivo solicitado en esa ruta.
+Mini Reto #3
+En el mini reto 3 se creó la página tarifas.html dentro de la carpeta paginas 
+para mostrar los precios del alquiler de bicicletas y los recorridos guiados 
+de Rueda Libre. Se organizaron los precios en dos tablas con sus respectivos 
+encabezados y datos. También se agregó información sobre el casco y el candado 
+incluidos, los horarios de los recorridos y los elementos que deben llevar los 
+participantes. Se añadió el logo utilizando una ruta relativa y se crearon 
+enlaces para ir desde la página de inicio a las tarifas, consultar directamente 
+los recorridos y regresar al inicio. Finalmente, se revisó el funcionamiento 
+de la página y sus enlaces en el navegador, y se guardaron los cambios con Git 
+para subirlos a GitHub.
 
-4. FUNCIÓN DE HTML, CSS Y JAVASCRIPT
-- HTML: organiza el contenido de la página.
-Ejemplo: mostrar el título Rueda Libre y un párrafo
-de bienvenida.
-- CSS: define la apariencia de la página.
-Ejemplo: colocar un fondo verde y cambiar el tamaño
-del título principal.
-- JavaScript: permite agregar interactividad.
-Ejemplo: crear un botón que muestre un mensaje cuando
-el usuario quiera consultar las promociones.
+Mini Reto #4
+En el mini reto 4 se creó la página reservas.html para que los clientes de Rueda 
+Libre puedan consultar el correo de contacto y los horarios de atención. También 
+se agregó un menú de navegación común en las tres páginas: inicio, tarifas y 
+rutas, y reservas. Se unificó el pie de página con el nombre del negocio, el 
+correo y el año. Además, se incluyeron enlaces de “Reservar ahora” para facilitar 
+el acceso a la página de reservas. En la bitácora se registraron las rutas 
+relativas utilizadas para conectar las páginas, teniendo en cuenta que los 
+archivos están ubicados en carpetas diferentes. Finalmente, se verificó la 
+navegación en el navegador y se guardaron los cambios con Git para subirlos a 
+GitHub como la versión v0.1.
 
-5. TABLA DE RUTAS DEL SITIO RUEDA LIBRE V0.1
-index.html:
-- Inicio: index.html
-- Tarifas y rutas: paginas/tarifas.html
-- Reservas: paginas/reservas.html
+Mini Reto #5
+En el mini reto 5 se modificaron las tres páginas de Rueda Libre para organizar 
+mejor su contenido utilizando etiquetas semánticas de HTML. Se usaron las 
+etiquetas header para el encabezado, nav para el menú, main para el contenido 
+principal, section para separar los temas, article para los servicios, aside 
+para la información complementaria y footer para el pie de página. Antes de 
+modificar el código, se realizó un esquema de la estructura de cada página y 
+se registró en la bitácora. También se mantuvieron los textos, las imágenes, 
+las tablas y los enlaces de la versión anterior. Finalmente, se revisó la 
+estructura en DevTools y se comprobó que la navegación siguiera funcionando.
 
-paginas/tarifas.html:
-- Inicio: /index.html
-- Tarifas y rutas: tarifas.html
-- Reservas: reservas.html
+Mini Reto #6
+En el mini reto 6 se creó un formulario de reserva para Rueda Libre, organizado 
+en tres grupos: Tus datos, Tu alquiler y Confirmación. Se utilizaron diferentes 
+controles HTML, como campos de texto, correo, teléfono, fecha, opciones de 
+selección, listas desplegables, casillas y un área para comentarios. Cada 
+control tiene una etiqueta relacionada mediante los atributos for e id, y se 
+agregó el atributo name para identificar los datos. Elegí los botones de 
+opción para el tipo de bicicleta porque solo se puede seleccionar una 
+alternativa; la lista desplegable para el plan porque facilita escoger entre 
+varias opciones; y la casilla de verificación para aceptar las políticas. 
+Finalmente, probé las etiquetas y la selección de opciones en el navegador.
 
-paginas/reservas.html:
-- Inicio: /index.html
-- Tarifas y rutas: tarifas.html
-- Reservas: reservas.html
-
-6. ENLACES ADICIONALES
-- Desde index.html hacia reservas: paginas/reservas.html
-- Desde paginas/tarifas.html hacia reservas: reservas.html
-- Desde paginas/reservas.html hacia tarifas: tarifas.html
-
-7. VERSION
-Versión: v0.1
-Descripción: sitio integrado con menú común, pie de página y página inicial de reservas.
+Mini Reto #7
