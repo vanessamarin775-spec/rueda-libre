@@ -9,8 +9,8 @@ Host: 127.0.0.1
 Puerto: 5500
 Ruta: /index.html
 Método de petición: GET
-Código de estado: 304 OK
-Significado: 
+Código de estado: 304 Not Modified
+Significado: el navegador puede utilizar una copia guardada en caché porque el documento no ha cambiado. Así evita descargar nuevamente el archivo completo.
 
 3. SOLICITUD DE UNA RUTA INEXISTENTE
 URL completa: http://127.0.0.1:5500/promociones.html
