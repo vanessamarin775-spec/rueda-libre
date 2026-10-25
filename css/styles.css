@@ -86,3 +86,66 @@ td {
   outline: 2px solid var(--color-azul-noche);
   outline-offset: 2px;
 }
+
+#menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: var(--espacio-medio);
+  flex-wrap: wrap;
+}
+
+#menu a {
+  display: inline-block;
+  color: var(--crema);
+  text-decoration: none;
+  padding: var(--espacio-pequeno);
+}
+
+#menu a.activo {
+  color: var(--crema);
+  font-weight: 600;
+  border-bottom: 3px solid var(--naranja-pedal);
+}
+
+#menu a:hover, #menu a:focus {
+  color: var(--azul-noche);
+  background-color: var(--naranja-pedal);
+  text-decoration: underline;
+}
+
+.btn-cta {
+  display: inline-block;
+  background-color: var(--naranja-pedal);
+  color: var(--azul-noche);
+  font-family: var(--fuente-textos);
+  font-weight: 600;
+  text-decoration: none;
+  padding: var(--espacio-pequeno) var(--espacio-medio);
+  border-radius: 5px;
+}
+
+.btn-cta:hover, .btn-cta:focus {
+  background-color: var(--verde-ruta);
+  color: var(--blanco);
+  text-decoration: underline;
+}
+
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+  outline: 3px solid var(--verde-ruta);
+  outline-offset: 3px;
+}
+
+#menu a:focus, .btn-cta:focus {
+  outline-color: var(--naranja-pedal);
+}
+
+input, select, textarea {
+  color: var(--azul-noche);
+  background-color: var(--crema);
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--verde-ruta);
+}

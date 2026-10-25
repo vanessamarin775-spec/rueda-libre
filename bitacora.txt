@@ -114,3 +114,19 @@ se revisó que las tres páginas cargaran la hoja de estilos y las fuentes
 correctamente.
 
 Mini Reto #10
+Se mejoraron los estilos de navegación, enlaces, botones y campos del formulario 
+mediante selectores de ID, clases, descendientes y pseudoclases. Se agregó el 
+identificador menu a la lista de navegación y la clase activo al enlace 
+correspondiente a cada página. También se utilizó aria-current="page" para 
+identificar la página actual.
+El conflicto de especificidad se presentó entre #menu a, que tiene 
+especificidad 1-0-1, y .activo, que tiene especificidad 0-1-0. El selector 
+con ID tiene mayor especificidad y podía imponerse sobre el color de la clase. 
+Se corrigió usando #menu a.activo, con especificidad 1-1-1, sin recurrir a 
+!important ni a estilos en línea.
+Se definieron los estados :hover y :focus para los enlaces y botones, y se 
+agregó un indicador de foco visible a los campos del formulario. Finalmente, 
+se revisaron los estilos con DevTools y se recorrieron las tres páginas con el 
+teclado para comprobar la navegación y la visibilidad del foco.
+
+Mini Reto #11
