@@ -26,10 +26,34 @@ Significado: el servidor no encontró el archivo solicitado en esa ruta.
 - HTML: organiza el contenido de la página.
 Ejemplo: mostrar el título Rueda Libre y un párrafo
 de bienvenida.
-
 - CSS: define la apariencia de la página.
 Ejemplo: colocar un fondo verde y cambiar el tamaño
 del título principal.
 - JavaScript: permite agregar interactividad.
 Ejemplo: crear un botón que muestre un mensaje cuando
 el usuario quiera consultar las promociones.
+
+5. TABLA DE RUTAS DEL SITIO RUEDA LIBRE V0.1
+index.html:
+- Inicio: index.html
+- Tarifas y rutas: paginas/tarifas.html
+- Reservas: paginas/reservas.html
+
+paginas/tarifas.html:
+- Inicio: /index.html
+- Tarifas y rutas: tarifas.html
+- Reservas: reservas.html
+
+paginas/reservas.html:
+- Inicio: /index.html
+- Tarifas y rutas: tarifas.html
+- Reservas: reservas.html
+
+6. ENLACES ADICIONALES
+- Desde index.html hacia reservas: paginas/reservas.html
+- Desde paginas/tarifas.html hacia reservas: reservas.html
+- Desde paginas/reservas.html hacia tarifas: tarifas.html
+
+7. VERSION
+Versión: v0.1
+Descripción: sitio integrado con menú común, pie de página y página inicial de reservas.
