@@ -97,3 +97,20 @@ Finalmente, se publicará el sitio mediante GitHub Pages y se comprobará que la
 tres páginas, las imágenes y los enlaces funcionen correctamente desde internet.
 
 Mini Reto #9
+Se creó el archivo externo css/styles.css y se enlazó en las tres páginas de 
+Rueda Libre utilizando las rutas relativas correspondientes. Se agregaron las 
+fuentes Montserrat en grosor 700 para los títulos y Open Sans en grosores 400 
+y 600 para los textos, cargadas desde Google Fonts.
+En :root se declararon variables para los cinco colores de marca, las dos 
+familias tipográficas con fuentes de respaldo y una escala de espaciado en rem. 
+Después, se aplicaron los estilos generales al cuerpo del documento y se 
+agruparon los encabezados para utilizar Montserrat. También se organizaron los 
+colores de los enlaces, botones, tablas y pie de página respetando el mapa de 
+contraste.
+Finalmente, se revisaron las pestañas Styles, Computed y Network de DevTools. 
+Se comprobó la herencia del color desde el cuerpo del documento hacia los 
+párrafos y se verificó que el margen no se heredara automáticamente. También 
+se revisó que las tres páginas cargaran la hoja de estilos y las fuentes 
+correctamente.
+
+Mini Reto #10
