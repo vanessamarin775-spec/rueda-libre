@@ -1,0 +1,35 @@
+1. CONFIGURACIÓN DEL PROYECTO
+Se creó la carpeta rueda-libre en Windows y se inicializó Git con el comando git init.
+Se crearon los archivos index.html y bitacora.txt, y las carpetas paginas e img. En img se guardó una imagen para utilizarla como portada del sitio.
+
+2. SOLICITUD DEL DOCUMENTO PRINCIPAL
+URL completa: http://127.0.0.1:5500/index.html
+Protocolo: HTTP (http)
+Host: 127.0.0.1
+Puerto: 5500
+Ruta: /index.html
+Método de petición: GET
+Código de estado: 304 OK
+Significado: 
+
+3. SOLICITUD DE UNA RUTA INEXISTENTE
+URL completa: http://127.0.0.1:5500/promociones.html
+Protocolo: HTTP (http)
+Host: 127.0.0.1
+Puerto: 5500
+Ruta: /promociones.html
+Método de petición: GET
+Código de estado esperado: 404 Not Found
+Significado: el servidor no encontró el archivo solicitado en esa ruta.
+
+4. FUNCIÓN DE HTML, CSS Y JAVASCRIPT
+- HTML: organiza el contenido de la página.
+Ejemplo: mostrar el título Rueda Libre y un párrafo
+de bienvenida.
+
+- CSS: define la apariencia de la página.
+Ejemplo: colocar un fondo verde y cambiar el tamaño
+del título principal.
+- JavaScript: permite agregar interactividad.
+Ejemplo: crear un botón que muestre un mensaje cuando
+el usuario quiera consultar las promociones.
