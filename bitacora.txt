@@ -130,3 +130,17 @@ se revisaron los estilos con DevTools y se recorrieron las tres páginas con el
 teclado para comprobar la navegación y la visibilidad del foco.
 
 Mini Reto #11
+En este mini reto se mejoró la distribución de los elementos de Rueda Libre 
+utilizando el modelo de caja de CSS. Se aplicó box-sizing: border-box a todos 
+los elementos para incluir el relleno y los bordes dentro del ancho definido. 
+También se limitó el ancho del contenido principal en rem y se centró con 
+márgenes automáticos. La portada se configuró con una altura mínima en vh.
+Los servicios se organizaron en tarjetas con relleno, borde, esquinas 
+redondeadas y separación. Las imágenes se ajustaron al 100 % del ancho de sus 
+tarjetas. También se mejoraron las tablas con relleno en las celdas y encabezados 
+con colores de marca que cumplen el contraste aprobado. El formulario se 
+organizó colocando las etiquetas encima de los campos y ampliando el espacio 
+entre los grupos. Finalmente, el menú se organizó en una fila y se revisó la 
+distribución con DevTools.
+
+Mini Reto #12
