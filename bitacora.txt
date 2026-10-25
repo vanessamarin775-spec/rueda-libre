@@ -144,3 +144,13 @@ entre los grupos. Finalmente, el menú se organizó en una fila y se revisó la
 distribución con DevTools.
 
 Mini Reto #12
+En este MiniReto agregué la etiqueta “Nuevo” a la tarjeta de bicicletas 
+eléctricas utilizando position: relative y position: absolute, para ubicarla 
+en una esquina sin desplazar el contenido. También incorporé un enlace fijo a 
+WhatsApp en las tres páginas, utilizando position: fixed, y agregué espacio 
+inferior para evitar que cubriera el contenido.
+Organicé la hoja de estilos styles.css por secciones, revisé los estilos 
+repetidos y verifiqué la consistencia del encabezado, el menú, los botones y 
+el pie de página. Finalmente, revisé el sitio con DevTools, comprobé los enlaces, 
+las imágenes, la validación del formulario y la navegación con teclado. Para terminar, 
+preparé la publicación de la versión 1.0 mediante Git y GitHub Pages.
