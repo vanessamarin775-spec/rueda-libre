@@ -72,3 +72,12 @@ varias opciones; y la casilla de verificación para aceptar las políticas.
 Finalmente, probé las etiquetas y la selección de opciones en el navegador.
 
 Mini Reto #7
+En el mini reto 7 se agregaron validaciones nativas al formulario de reservas 
+de Rueda Libre para cumplir las reglas del cliente. Se utilizaron atributos 
+como required, minlength, maxlength, pattern, title, min y max. El documento 
+se limitó a números entre 6 y 10 dígitos, el celular a 10 dígitos que comienzan 
+por 3, la fecha al rango entre noviembre y diciembre de 2026 y la cantidad a 
+un máximo de 6 bicicletas. También se limitó el campo de comentarios a 300 
+caracteres y se hizo obligatoria la aceptación de las políticas. Se realizaron 
+pruebas con datos válidos e inválidos y se revisó la navegación usando el 
+teclado. Los resultados de las pruebas se registraron en una tabla.
