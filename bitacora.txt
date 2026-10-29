@@ -1,3 +1,5 @@
+---- SEMANA_1 ----
+
 Mini Reto #1
 En el mini reto 1 se creó el proyecto Rueda Libre en Visual Studio 
 Code, con el archivo index.html, las carpetas paginas e img, y el 
@@ -154,3 +156,13 @@ repetidos y verifiqué la consistencia del encabezado, el menú, los botones y
 el pie de página. Finalmente, revisé el sitio con DevTools, comprobé los enlaces, 
 las imágenes, la validación del formulario y la navegación con teclado. Para terminar, 
 preparé la publicación de la versión 1.0 mediante Git y GitHub Pages.
+
+---- SEMANA_2 ----
+
+Mini Reto #1
+Se utilizó Flexbox para organizar el encabezado y el pie de página de Rueda Libre. 
+El nombre del negocio quedó en un extremo y el menú en el otro, usando gap para 
+separar los enlaces y flex-wrap para que pasen a otra línea cuando no hay suficiente 
+espacio. También se organizó el pie de página en tres bloques: marca, contacto y 
+horario. Finalmente, se probaron los cambios en diferentes tamaños de pantalla 
+para mejorar la distribución y adaptación del sitio web.

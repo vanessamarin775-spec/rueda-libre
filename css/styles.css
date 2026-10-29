@@ -43,6 +43,15 @@ header, footer {
   padding: var(--espaciado-mediano);
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espaciado-mediano);
+}
+
 header h1, footer h1, footer h2, footer h3 {
   color: var(--color-blanco);
 }
@@ -54,6 +63,8 @@ header a, footer a {
 #menu {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   gap: var(--espaciado-mediano);
   list-style: none;
@@ -285,4 +296,18 @@ aside {
 
 body {
   padding-bottom: 6rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--espaciado-mediano);
+}
+
+footer > div {
+  flex: 1;
+  min-width: 180px;
 }
