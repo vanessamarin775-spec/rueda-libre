@@ -73,7 +73,7 @@ header a, footer a {
 }
 
 #menu li {
-  display: inline-block;
+  display: block;
 }
 
 #menu a {
