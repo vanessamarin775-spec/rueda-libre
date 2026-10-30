@@ -166,3 +166,9 @@ separar los enlaces y flex-wrap para que pasen a otra línea cuando no hay sufic
 espacio. También se organizó el pie de página en tres bloques: marca, contacto y 
 horario. Finalmente, se probaron los cambios en diferentes tamaños de pantalla 
 para mejorar la distribución y adaptación del sitio web.
+
+Mini Reto #2
+Se revisó la distribución de las tarjetas de bicicletas utilizando las herramientas 
+de desarrollador del navegador. Se probaron diferentes tamaños de pantalla para 
+verificar que las columnas se ajustaran correctamente. De esta manera, se comprobó 
+que la página se pudiera visualizar bien en computadores, tabletas y celulares.

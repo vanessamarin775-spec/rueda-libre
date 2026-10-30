@@ -43,6 +43,12 @@ header, footer {
   padding: var(--espaciado-mediano);
 }
 
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -310,4 +316,39 @@ footer {
 footer > div {
   flex: 1;
   min-width: 180px;
+}
+
+.cuadricula-flota {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--espaciado-grande);
+}
+
+.tarjeta-bicicleta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--espaciado-mediano);
+  border: 1px solid var(--color-gris-asfalto);
+  border-radius: 0.5rem;
+  background-color: var(--color-blanco);
+}
+
+.tarjeta-bicicleta img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.tarjeta-bicicleta .precio {
+  font-weight: 600;
+  color: var(--color-verde-ruta);
+}
+
+.tarjeta-bicicleta .btn-cta {
+  margin-top: auto;
+  align-self: flex-start;
 }
